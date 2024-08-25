@@ -4,9 +4,9 @@ from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "22213072"))
+API_HASH = os.environ.get("API_HASH", "8ec41c246b5074ab926933fb286fb43f")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002227187797"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7202892465"))
@@ -18,14 +18,14 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Dirtyking")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vnshortener.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "5c893e2544bc73f7eccb80a4568810ef71dea281")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 36000)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/dirtybackup69") 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002218800944"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
