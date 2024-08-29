@@ -18,7 +18,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Dirtyking")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantlinks.com")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantlinks.co")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "fc8a95778f095f7c8e044f616ea8530bcc52766a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 84600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
