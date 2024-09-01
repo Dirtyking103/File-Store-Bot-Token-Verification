@@ -6,7 +6,7 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", "22213072"))
 API_HASH = os.environ.get("API_HASH", "8ec41c246b5074ab926933fb286fb43f")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002227187797"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7202892465"))
