@@ -13,8 +13,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7202892465"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://dirtyking102:KLT5HXFTfou4QieE@dirtyking.gdvsj.mongodb.net/?retryWrites=true&w=majority&appName=Dirtyking")
-DB_NAME = os.environ.get("DATABASE_NAME", "Dirtyking")
+DB_URI = os.environ.get("DATABASE_URL", "")
+DB_NAME = os.environ.get("DATABASE_NAME", "")
 
 #Shortner (token system) 
 
